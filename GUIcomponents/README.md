@@ -172,7 +172,13 @@ private void changeFont() {
 
 ## OUTPUT
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/51b01eec-7a44-494c-95eb-c00894932af2)
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/74631d3e-06aa-4020-a817-6b45ac86e9aa)
+
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/05aa72e5-6d2e-4aee-957b-7e38c282002f)
+
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/6f83ab04-6f02-44d4-ba5e-03b20eeb7663)
+
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/f77cf83d-1bbb-493c-9e70-83b896a10151)
 
 
 
