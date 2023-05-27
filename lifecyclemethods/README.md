@@ -107,16 +107,19 @@ public class MainActivity extends AppCompatActivity {
   ```
 ## OUTPUT
 
-![2](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/c88aa418-bfc2-48cc-80a5-d6e4eb7b453d)
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/c2cf99c4-0eec-477c-95db-128f8c6da1f7)
 
 
-![4](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/10abf595-ca79-480b-a954-a64cf6d488d5)
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/0e4c4865-c063-4b8b-b6cc-41a6fda8f5fc)
 
 
-![3](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/7f602d7c-9c8f-4d55-87a5-8c3352b228c0)
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/aef5c0c0-07c3-44e5-9704-1c39cb19ea7e)
 
 
-![1](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/3e1d25ce-3955-427b-bf47-0b3a15f46af0)
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/9305c20c-34c4-4b3f-8e59-6c619610ed37)
+
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/aeb12eb4-2ee8-49e1-969d-86e75850bc8e)
+
 
 ## RESULT
 Thus a Simple Android Application create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio is developed and executed successfully.
