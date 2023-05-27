@@ -172,6 +172,7 @@ private void changeFont() {
 
 ## OUTPUT
 
+![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/51b01eec-7a44-494c-95eb-c00894932af2)
 
 
 
