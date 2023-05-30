@@ -71,7 +71,7 @@ Registeration Number : 212221040099
         app:layout_constraintVertical_bias="0.186" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-## activity_main2:-
+## activity_main2.xml:-
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-## MainActivity2.xml:-
+## MainActivity2.java:-
 ```
 package com.example.exp_06;
 
