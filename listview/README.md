@@ -37,15 +37,10 @@ Registeration Number :212221040099
 ## activity_main.xml:-
 ```
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
-xmlns:app="http://schemas.android.com/apk/res-auto"
-          
-xmlns:tools="http://schemas.android.com/tools"
-          
-android:layout_width="match_parent"
-          
-android:layout_height="match_parent"
-          
+xmlns:app="http://schemas.android.com/apk/res-auto"         
+xmlns:tools="http://schemas.android.com/tools"         
+android:layout_width="match_parent"         
+android:layout_height="match_parent"          
 tools:context=".MainActivity">
 
 <ListView
@@ -59,9 +54,7 @@ tools:context=".MainActivity">
 ## Listview.xml:
 ```
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
-android:layout_width="match_parent"
-          
+android:layout_width="match_parent"        
 android:layout_height="match_parent">
 
 <ImageView
@@ -78,15 +71,10 @@ android:layout_height="match_parent">
 ## MainActivity:-
 ```
 package com.example.placename;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-
 import android.widget.ListView;
-
 public class MainActivity extends AppCompatActivity {
-
 ListView simpleList;
 String countryList[] = {"Bangalore", "Chennai", "Coimbatore", "KanyaKumari", "Kerala", "Mumbai"};
 int flags[] = {R.drawable.bangalore, R.drawable.chennai, R.drawable.coimbatore, R.drawable.kanyakumari,
@@ -107,25 +95,15 @@ protected void onCreate(Bundle savedInstanceState) {
 ## CustomAdapter.java:-
 ```
 package com.example.placename;
-
 import android.content.Context;
-
 import android.media.Image;
-
 import android.view.LayoutInflater;
-
 import android.view.View;
-
 import android.view.ViewGroup;
-
 import android.widget.BaseAdapter;
-
 import android.widget.ImageView;
-
 import android.widget.TextView;
-
 import java.util.zip.Inflater;
-
 public class CustomAdapter extends BaseAdapter { Context context; String countryList[]; int flags[]; LayoutInflater inflter;
 
 public CustomAdapter(Context applicationContext, String[] countryList, int[] flags) {
