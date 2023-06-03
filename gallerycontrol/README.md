@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 Gallery simpleGallery;
 CustomizedGalleryAdapter customGalleryAdapter;
 ImageView selectedImageView;
-int[] images = {R.drawable.daisy, R.drawable.jasmine,R.drawable.lily,R.drawable.lotus,R.drawable.rose};
+int[] images = {R.drawable.cat, R.drawable.fox,R.drawable.tiger,R.drawable.squirrel};
 
 
 @Override
@@ -144,13 +144,14 @@ public View getView(int position, View convertView, ViewGroup parent) {
 ```
 ## OUTPUT
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/a822574e-03e0-47d5-811c-010de64b60e5)
+![WhatsApp Image 2023-06-02 at 20 06 51](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/e0174afd-88d2-428a-984a-12ba6c2c91e7)
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/08e5fda1-61af-4d64-876e-f3cf31be1c1f)
+![WhatsApp Image 2023-06-02 at 20 06 52](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/29d0b137-0cd7-454c-b9de-ae25cb2b507a)
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/104c19d9-1238-4dc6-b562-820ea37c2ae2)
+![WhatsApp Image 2023-06-02 at 20 06 52](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/00eeba3f-160c-4906-a81c-b1831e16fa3d)
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/46e9d530-b724-4e02-93d0-bc1f6fc97fed)
+![WhatsApp Image 2023-06-02 at 20 06 53](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/65b63288-0fe7-4052-a5ae-313d09cf9d12)
+
 
 
 ## RESULT
