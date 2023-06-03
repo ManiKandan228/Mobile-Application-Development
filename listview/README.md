@@ -50,6 +50,7 @@ tools:context=".MainActivity">
     android:divider="@color/material_blue_grey_800"
     android:dividerHeight="1dp"
     android:footerDividersEnabled="false" />
+ </LinearLayout>
 ```
 ## Listview.xml:
 ```
@@ -67,6 +68,7 @@ android:layout_height="match_parent">
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:textColor="@color/black" />
+ </LinearLayout>
 ```
 ## MainActivity:-
 ```
@@ -74,22 +76,24 @@ package com.example.placename;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
-public class MainActivity extends AppCompatActivity {
-ListView simpleList;
-String countryList[] = {"Bangalore", "Chennai", "Coimbatore", "KanyaKumari", "Kerala", "Mumbai"};
-int flags[] = {R.drawable.bangalore, R.drawable.chennai, R.drawable.coimbatore, R.drawable.kanyakumari,
-        R.drawable.kerala, R.drawable.mumbai};
+public class MainActivity extends AppCompatActivity 
+{
+    ListView simpleList;
+    String countryList[] = {"India", "China", "Australia", "America", "Korea", "Hong Kong"};
+    int flags[] = {R.drawable.india, R.drawable.china, R.drawable.australia, R.drawable.america,
+        R.drawable.korea, R.drawable.hongkong};
 
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) 
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-    simpleList = findViewById(R.id.simpleListView);
+        simpleList = findViewById(R.id.simpleListView);
 
-    CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), countryList, flags);
-    simpleList.setAdapter(customAdapter);
-}
+        CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), countryList, flags);
+        simpleList.setAdapter(customAdapter);
+    }
 }
 ```
 ## CustomAdapter.java:-
@@ -140,16 +144,18 @@ public View getView(int i, View view, ViewGroup viewGroup) {
 }
 ```
 ## OUTPUT
+![WhatsApp Image 2023-06-02 at 20 06 50](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/25cee06b-3d42-4c45-ba96-a54ee505f246)
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/7ab077e4-68c3-4a85-afc3-a23823f8a2dd)
+![WhatsApp Image 2023-06-02 at 20 06 50](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/24b9acc1-6ade-4598-9892-4fc747acb452)
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/b0b5ff8a-b903-4378-a5c6-72b032eb408c)
+![WhatsApp Image 2023-06-02 at 20 06 50](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/3c3de8eb-5357-4813-8a01-8cc8e7493985)
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/0201b9d0-8da6-4a40-8a73-2fc98a650934)
+![WhatsApp Image 2023-06-02 at 20 06 51](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/cd442830-3c6d-42b9-beff-d6c9542252f6)
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/86a3ee1e-0db8-484e-a0dc-88c87491e142)
+![WhatsApp Image 2023-06-02 at 20 06 51](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/e1256e52-5d41-483c-adc6-3bbbdc8346ff)
 
-![image](https://github.com/ManiKandan228/Mobile-Application-Development/assets/119160414/e1f46609-b1b5-4a1e-9c27-15175f7fe245)
+
+
 
 
 ## RESULT
